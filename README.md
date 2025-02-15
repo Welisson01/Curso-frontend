@@ -14,6 +14,8 @@
 ARQUIVO  A  | VERSAO 1 | VERSAO 2
 ARQUIVO B | VERSAO 1 | VERSAO 2
 
+## clonar projeto
+git clone https://github.com/Welisson01/Curso-frontend.git
 
 ## COMITS
 INFORMAÇAO DE ALTERAÇAO 
