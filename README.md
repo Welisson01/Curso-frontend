@@ -24,3 +24,14 @@ APOS TESTADO TODO SEU CODIGO!
 ## GITFLOW
 
 FLUXO DO GIT 
+
+### branchs
+são ramificações do codigo / versões paralela
+
+- main /master (vai para produçao, quando o projeto e publicado)
+-develop finalidade de desenvolvimento!
+- ddd definition of done: criterios de aceite , definiçao de completo!
+-versionamento 1.0.0
+
+### merge
+mescla de branchs
