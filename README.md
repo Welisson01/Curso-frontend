@@ -35,3 +35,16 @@ são ramificações do codigo / versões paralela
 
 ### merge
 mescla de branchs
+voce pode precisar resolver conflitos manualmente
+
+git merge main
+
+### pull requests
+mescla de branchs no repositorio 
+permite code review
+o repositgorio resolve os conflitos automaticamente
+
+### configura o gitflow
+git flow init
+git flow feature start {nome-da-feature}
+
