@@ -118,6 +118,17 @@ section article{
     
 }
 
+
+.cog-abuse, cog-wrapper{
+    visibility: hidden !important; 
+    
+}
+
+.cog-branding__powered{
+    visibility: hidden !important; 
+}
+
+
 footer {
     background-color: #254159;
     
