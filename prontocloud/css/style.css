@@ -70,6 +70,12 @@ h6{
 p{
     margin-bottom: 10px;
     line-height: 1.4;
+    color: #333;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
 }
 
 section{
@@ -141,4 +147,23 @@ footer {
 footer p {
     color: #ffffff;
     font-size: 1.4rem;
+}
+
+#tenho-interesse{
+    padding: 20px ;
+    background-color:#a6b5c2;
+    overflow: hidden;
+}
+.cognito{
+    
+    display: block !important;
+    float: left !important;
+    width: 600px;
+    height: 450px;
+    overflow: hidden;
+    
+}
+
+.cog-form__content{
+    background-color: #a6b5c2 !important;
 }
