@@ -10,23 +10,26 @@ body{
 
 .main-container{
     display: block;
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
-    
+    overflow: hidden;    
 }
 .container{
     display: block;
     float: left;
-    padding: 10px;
-    width: 100vw;
-    margin: 0 auto;
+    padding: 20px  0;
+    max-width: 98%;
+    width: 98%;
+    margin: 0 1%;
+    max-width: 1298px;
 }
+
 
 header{
     background:#fff;
     display: block;
     float: left;
-    padding: 20px;
+
     width: 100%;
     border-bottom: 1px solid #254159;
 }
@@ -82,7 +85,7 @@ section{
     background-color: #fff;
     display: block;
     width: 100%;
-    padding: 20px;
+    
     float: left;
     font-size: 1.5rem;
     color:#254159;
@@ -140,18 +143,22 @@ footer {
     
     display: block;
     float: left;
-    padding: 20px;
+    margin: 0;
     width: 100vw;
+    height: auto;
+    width: 100%;
 }
 
 footer p {
     color: #ffffff;
     font-size: 1.4rem;
+    
 }
 
 #tenho-interesse{
     padding: 20px ;
-    background-color:#a6b5c2;
+    padding-right: 0px;
+    background-color:#dde3e9;
     overflow: hidden;
 }
 .cognito{
@@ -165,5 +172,84 @@ footer p {
 }
 
 .cog-form__content{
-    background-color: #a6b5c2 !important;
+    background-color:#dde3e9 !important;
+}
+
+#banner{
+    background-image: url(../img/banner.jpg) ;
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;background-position: center;
+    background-size: cover; 
+}
+
+.legenda{
+    padding: 20px ;
+    margin-right: 200px;
+    border: 5px;
+    background-color: rgba(255, 255, 255, .6);
+    width: 20vw;
+    display: block;
+    float: right;
+    
+    margin-top: 10vh;
+    margin-right: -20vh;
+}
+
+.legenda h4,
+.legenda h5{
+    color: #254159;
+    font-size: 100%;
+}
+
+.button-cta{
+    box-sizing: 10px;
+    display:inline;
+    background-color: orangered;
+    color: #fff;
+    font-size: 2rem;
+    box-shadow: 1px 1px 1px black;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: 300;
+    border-radius: 15px;
+    width: 10vw;
+    float:right;
+    text-align: center;
+    margin: 50vh auto;
+    margin-right: 250px;
+}
+
+#saiba-mais{
+    width: 100%;
+    background-color: #dde3e9;
+    
+}
+
+#saiba-mais p,
+#sauba-mais img{
+    width: 50%;
+    display: block;
+    float: right;
+    margin-right: 50px;
+}
+
+dt{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    
+}
+
+dd{
+    margin-left: 20px;
+}
+
+dl{
+    margin: 20px 0;
+    font-size: 1.4rem;
+}
+
+section{
+    background-color: #b0bac4;
 }

@@ -32,3 +32,10 @@
 - post para redes sociais: texto + ftot + url curta
 - incluir hospedagem (servidor web)
 - Git - historico de evolução (comits detalhados)
+
+### URL
+
+uniform resurse locator
+
+- url amigavel mecanismo de busca
+- em curtador de url
